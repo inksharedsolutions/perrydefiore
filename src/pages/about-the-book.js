@@ -107,8 +107,6 @@ const ATB = (props)=>{
                                 }} 
                             />
 
-
-
                             <div className="commentSection" >
                                 <div id="disqus_thread">
                                     <DiscussionEmbed {...disqusConfig} />
