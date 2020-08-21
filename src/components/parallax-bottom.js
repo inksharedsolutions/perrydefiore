@@ -7,10 +7,9 @@ import React from 'react'
             <section className="parallax-bottom">
                 <div className="flex-container">
                     <h1>
-                        For he who comes to God must believe that he is and that he is
-                        a rewarder of those who diligently seek him.
+                      The more you know, the more you know you don’t know
                         <span className="italic-tag span-verse">
-                            Hebrews 11:6
+                            Perry Defiore
                         </span>
                     </h1>
                 </div>
