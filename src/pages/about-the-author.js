@@ -24,34 +24,59 @@ const ATB = (props)=>{
                             </div>
 
                             <div className="heading-quote">
-
                                 <h4>
-                                    The secret is inside of you; you can 
-                                    create your world with your words.
-                                    You are framing your reality every day.
-                                    You are literally what you think of yourself.
-                                    Your beliefs are not made of realities. Rather,
-                                    your reality is being formed every day by your
-                                    beliefs, thoughts and words. Manifest intentions
-                                    in your words and become the author of reality.
+                                  “The more you know, the more you know you don’t know”.
                                 </h4>
-                                
                                 <span className="ata-span-fx">
                                     author quote
                                 </span>
                             </div>
+                            
                         </div>
 
                         <article className="article-section column" id="author">
                             <p>
-                               Ed Vergara has always distinguished himself for his dedication
-                               to science, art, universal history. His excellent professional
-                               training has led him to be a specialist in urban planning, 
-                               architecture, construction, and he is also an expert in health
-                               and safety in construction (OSHA) and lectures in Latin America
-                               and to all US states.  Ed believes that history is the foundation
-                               for knowledge of all sciences and that history is the best tool for
-                               knowledge of the present and even the future.  
+                                Perry was born December 22, 1947, in Allentown,
+                                Pennsylvania. His mother was of Irish roots (McClellan)
+                                and his father originated from Italy. He was raised
+                                in the Allentown area in a lower income society and
+                                joined the Marines at the age of seventeen to find his
+                                way to go to college. He served thirteen plus months in Vietnam,
+                                receiving a Certificate of Commendation for saving a fellow Marine’s life.
+                                He studied Physics and Business Administration along with other military
+                                courses in Rifle Squad and Topography while in the service.
+                                Upon leaving the military in August, 1968, he began a lifetime
+                                of studies: Cost Accounting at Las Salle University,
+                                Electronics and Mechanics at the Cleveland Institute,
+                                writing at the New York Institute, Environmental
+                                Science at CU, Ocean Sciences at WU, Oceanography,
+                                and, most recently Astrophysics (his personal favorite science).
+                                There were countless other courses he accumulated giving him
+                                enough papers to wall paper one wall of his office.
+                                He has been a member of the Planetary Society and the New York Academy of Sciences.
+                                He feels education is the most valuable gift a parent can give their children.
+                            </p>
+
+                            <p>
+                                He used his business administration to become a general manager
+                                of a large thirty-six store operation in Florida. He used his
+                                sciences background to work as a Junior High School principal
+                                in a foreign country. He speaks, reads, and writes Spanish and English fluently.
+                                He founded a scientific society for the development of young scientists which
+                                still exists today, although he has retired. He accompanied other scientists
+                                on various scientific expeditions internationally. He used his writing background
+                                to write his novels (8 now and growing) since he retired. The Veterans Administration
+                                has awarded him a 100% disability.
+                            </p>
+
+                            <p>
+                                He married at the age of twenty shortly after
+                                returning from Vietnam and had two children.
+                                He divorced after eleven years and remarried a widow with
+                                four children and, after thirty-nine years of marriage and
+                                seven grandchildren, still remains married. He enjoys golf
+                                and fishing and has traveled to twenty percent of the countries
+                                of the world.
                             </p>
 
                             <p>
