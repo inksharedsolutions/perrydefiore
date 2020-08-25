@@ -15,7 +15,7 @@ const BookLink = (props)=>{
                         <li><a rel="noopener noreferrer" target="_blank" href={props.data.ebooks.stratton}>Stratton Press</a></li>
                         <li><a rel="noopener noreferrer" target="_blank" href={props.data.ebooks.barnes}>Barnes & Noble</a></li>
                     </nav>
-                )}      
+                )} 
 
                 {!Object.entries(props.data.paperback).length == 0 && (
 
