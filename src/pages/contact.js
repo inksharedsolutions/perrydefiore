@@ -26,15 +26,12 @@ const Contact = (props)=>{
         };
 
         xhr.send(data);
-       
     }
     
 
     return(
         <>
-
             <Layout>
-
 		 		<Nav pathExt={props.path}/>
 		 		<Banner 
                     spanFirst={`Get In`}
