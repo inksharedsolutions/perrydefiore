@@ -166,21 +166,25 @@
 
 .form-newsletter-wrapper{
     input[name="email"]{
+
         width: 45%;
         padding: 2%;
         border: 1px solid #f1ebd5;
         &:active{
             border: 1px solid #ffca00;
         }
+
     }
 
     input[name="submit"]{
-        background: #e95c2f;
+
+        background: #083151;
         border: none;
         color: #ffff;
         cursor: pointer;
         text-transform: uppercase;
         letter-spacing: 3px;
+        
     }
 
     button{
