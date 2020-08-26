@@ -115,7 +115,7 @@ const Contact = (props)=>{
 
                             <span>
                                 <h5>Email</h5>
-                                learnhowtoreceivefromgod@gmail.com
+                                publish@stratton-press.com
                             </span>
                         </div>
                     </div>
