@@ -24,12 +24,7 @@ const ATB = (props)=>{
                             </div>
 
                             <div className="heading-quote">
-                                <h4>
-                                  “The more you know, the more you know you don’t know”.
-                                </h4>
-                                <span className="ata-span-fx">
-                                    author quote
-                                </span>
+                          
                             </div>
                             
                         </div>
