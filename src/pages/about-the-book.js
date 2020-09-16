@@ -7,6 +7,8 @@ import { DiscussionEmbed } from "disqus-react"
 import Book1 from '../../static/books/Book_Cover.png'
 import Book2 from '../../static/books/Book_Cover_02.png'
 import Book3 from '../../static/books/Book_Cover_03.png'
+import Book4 from '../../static/books/Book_Cover_04.png'
+import Book5 from '../../static/books/Book_Cover_05.png'
 
 const ATB = (props)=>{
 
@@ -66,7 +68,8 @@ const ATB = (props)=>{
                                   amazon:'https://www.amazon.com/Black-Tide-Perry-DeFiore/dp/1643459252/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1600277345&sr=1-4',
                                   barnes:'https://www.barnesandnoble.com/w/the-black-tide-perry-defiore/1136605834?ean=9781643459257',
                                   booksamillion:'https://www.booksamillion.com/p/Black-Tide/Perry-Defiore/9781643459257?id=7714171848832',
-                              }
+                              },
+                              isComingSoon:false,
                           }}
                       />
 
@@ -104,7 +107,8 @@ const ATB = (props)=>{
                                   amazon:'https://www.amazon.com/Menace-Deep-Perry-DeFiore/dp/1643459279/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1598033772&sr=1-2',
                                   barnes:'https://www.barnesandnoble.com/w/menace-from-the-deep-perry-defiore/1136605835?ean=9781643459271',
                                   booksamillion:'https://www.booksamillion.com/p/Menace-from-Deep/Perry-Defiore/9781643459271?id=7714171848832',
-                              }
+                              },
+                              isComingSoon:false,
                           }} 
                       />
 
@@ -137,7 +141,53 @@ const ATB = (props)=>{
                                   amazon:'https://www.amazon.com/Alien-Propagation-Perry-Defiore/dp/1648950868/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1600278089&sr=1-3',
                                   barnes:'https://www.barnesandnoble.com/w/alien-propagation-perry-defiore/1137192155?ean=9781648950865',
                                   booksamillion:'https://www.booksamillion.com/p/Alien-Propagation/Perry-Defiore/9781648950865?id=7714171848832',
-                              }
+                              },
+                              isComingSoon:false,
+                          }} 
+                      />
+
+                       <BookInfo
+                          data={{
+                              title:`The Fiddler`,
+                              spanFirst:`Another Ralph Muller Adventure`,
+                              imgSrc: Book4,
+                              id:'',
+                              content:
+                              `
+                                <p>
+                                  Ralph Mullen takes his grandson on a fishing trip
+                                  to enjoy a weekend with quality time with his namesake.
+                                  He is asked to help seek and destroy what he believes is
+                                  a nest of the venomous brown recluse spider and his grandson
+                                  volunteers for the both of them. Unfortunately, a simple location
+                                  and elimination of a nest of spiders turns into a multiple murder
+                                  that endangers Ralph and his grandson’s life.
+                                </p> 
+                              `,
+                              isComingSoon:true,
+                              ebooks:{},
+                              paperback:{}
+                          }} 
+                      />
+
+                      <BookInfo
+                          data={{
+                              title:`I DIE TO LIVE`,
+                              spanFirst:`Another Ralph Muller Adventure`,
+                              imgSrc: Book5,
+                              id:'',
+                              content:
+                              `
+                                <p>
+                                  Once again, Ralph Mullen faces danger, but
+                                  this time, he’s on his grandson’s mission who
+                                  seems to have inherited his grandfather’s nose for
+                                  adventure, intrigue, and murder.
+                                </p> 
+                              `,
+                              isComingSoon:true,
+                              ebooks:{},
+                              paperback:{}
                           }} 
                       />
 

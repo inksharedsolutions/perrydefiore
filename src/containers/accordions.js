@@ -112,17 +112,17 @@ class Accordions extends React.Component {
             extra={this.genExtra()}>
             <div>
                 <BookLink
-                      data={{
-                        paperback:{
-                            amazon:'https://www.amazon.com/Transcend-3-Elements-Ed-Vergara/dp/1643458973/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1596814551&sr=1-1',
-                            barnes:'https://www.barnesandnoble.com/w/transcend-ed-vergara/1136405586?ean=9781643458977',
-                            booksamillion:'https://www.booksamillion.com/p/Transcend/Ed-Vergara/9781643458977?id=7714171848832',
-                        },
-                        ebooks:{},
-                        isNonfront:false,
-                        reviews:{},
-                      }}
-                  />
+                    data={{
+                      paperback:{
+                          amazon:'https://www.amazon.com/Transcend-3-Elements-Ed-Vergara/dp/1643458973/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1596814551&sr=1-1',
+                          barnes:'https://www.barnesandnoble.com/w/transcend-ed-vergara/1136405586?ean=9781643458977',
+                          booksamillion:'https://www.booksamillion.com/p/Transcend/Ed-Vergara/9781643458977?id=7714171848832',
+                      },
+                      ebooks:{},
+                      isNonfront:false,
+                      reviews:{},
+                  }}
+                />
             </div>
           </Panel>
         </Collapse>
