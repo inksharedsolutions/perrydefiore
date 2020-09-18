@@ -42,7 +42,7 @@ const BookInfo = (props)=>{
                                 barnes: props.data.paperback.barnes,
                                 booksamillion: props.data.paperback.booksamillion,
                             },
-                            
+                            isComingSoon : props.data.isComingSoon,
                             reviews:{},
                             isNonfront:true,
                         }}

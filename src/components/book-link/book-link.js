@@ -41,6 +41,13 @@ const BookLink = (props)=>{
                 </section>
              )}
 
+            { props.data.isComingSoon && (
+                <nav className={`${props.data.isNonfront ? 'booklinkBlocks' : 'frontLinks'}`} >
+                    <h1 className="comingsoon-tf">Coming Soon</h1>
+                </nav>
+            )}
+
+
         </>
     )
 }

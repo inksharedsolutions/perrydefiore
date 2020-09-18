@@ -262,7 +262,7 @@ $prm-font-size : 12px;
      
     a{
         text-decoration: none;
-        background: #e95c2f;
+        background: #686868;
         padding: 4px 15px;
         color: #ffffff !important;
         font-size: 13px;
@@ -450,4 +450,13 @@ $prm-font-size : 12px;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 15px;
+}
+
+
+.comingsoon-tf{
+    background: #686868;
+    text-align: center;
+    padding: 2%;
+    font-style: italic;
+    margin-top: 7%;
 }
