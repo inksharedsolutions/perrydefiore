@@ -4,20 +4,25 @@ import Nav from '../components/nav'
 import Banner from '../components/non-front-banner'
 import BookInfo from '../components/book-info/book-info'
 import { DiscussionEmbed } from "disqus-react"
+
+/*Images Imports*/
 import Book1 from '../../static/books/Book_Cover.png'
 import Book2 from '../../static/books/Book_Cover_02.png'
 import Book3 from '../../static/books/Book_Cover_03.png'
 import Book4 from '../../static/books/Book_Cover_04.png'
 import Book5 from '../../static/books/Book_Cover_05.png'
 
+
 const ATB = (props)=>{
 
-    const slug =(props.location.href);
+  const slug =(props.location.href);
     
 	const disqusConfig = {
+
 	  shortname: 'perry-defiore',
 	  config: { identifier:  12, slug}
-    }
+
+  }
     
 
 	return (
@@ -183,7 +188,7 @@ const ATB = (props)=>{
                                   this time, he’s on his grandson’s mission who
                                   seems to have inherited his grandfather’s nose for
                                   adventure, intrigue, and murder.
-                                </p> 
+                                </p>
                               `,
                               isComingSoon:true,
                               ebooks:{},
