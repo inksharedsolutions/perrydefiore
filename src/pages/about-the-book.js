@@ -169,9 +169,17 @@ const ATB = (props)=>{
                                   that endangers Ralph and his grandson’s life.
                                 </p> 
                               `,
-                              isComingSoon:true,
-                              ebooks:{},
-                              paperback:{}
+                              isComingSoon:false,
+                              ebooks:{
+                                stratton:'',
+                                barnes:'https://www.barnesandnoble.com/w/the-fiddler-perry-d-defiore/1137881710?ean=9781648952135',
+                                amazon:'https://www.amazon.com/Fiddler-Another-Ralph-Mullen-Adventure-ebook/dp/B08KWMJPP2/ref=sr_1_1?dchild=1&keywords=9781648952135&qid=1602270887&sr=8-1',
+                              },
+                              paperback:{
+                                amazon:'https://www.amazon.com/dp/1648952127/ref=sr_1_1?dchild=1&keywords=9781648952128&qid=1602271480&sr=8-1',
+                                barnes:'https://www.barnesandnoble.com/w/the-fiddler-perry-d-defiore/1137881710?ean=9781648952128',
+                                booksamillion:'https://www.booksamillion.com/p/Fiddler/Perry-D-Defiore/9781648952128?id=8182376598095',
+                              }
                           }} 
                       />
 
