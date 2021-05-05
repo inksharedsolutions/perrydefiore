@@ -34,91 +34,78 @@ const Nav = (props) =>{
 		setToggled(!toggled);
 	}
 			
-    return(
+    return (
         <>
-			<nav className="navigation">
-				<li>
-					<Link to="/">
-						Home
-					</Link>
-				</li>
+            <nav className="navigation" >
 
-				<li>
-					<Link to="/about-the-author">
-						Author
-					</Link>
-				</li>
+                <h1>
+                    <Link
+                        style={props.pathExt === '/'
+                            || props.pathExt === '' ? {
+                                color: 'rgb(255, 202, 0)'
+                            } : {
+                                color: '#000'
+                            }}
+                        to="/">
 
-				<li>
-					<Link to="/">
-						<img alt="author-logo" src={Logo}/>
-					</Link>
-				</li>
+                        <img className="logo-img" src={Logo} />
 
-				<li>
-					<Link to="/about-the-book">
-						Book
-					</Link>
-				</li>
-				
-				<li>
-					<Link to="/contact">
-						Contact
-					</Link>
-				</li>
-			</nav>
+                    </Link>
+                </h1>
 
+                <ul
+                    className="hamburger-ul"
+                    onClick={e => clickEvent(e)}
+                    ref={refSpan}>
+                    <span className="hamburger-span"></span>
+                    <span className="hamburger-span"></span>
+                </ul>
 
-			<nav className="burger-nav">
-				<h1>
-					<Link 
-						style={props.pathExt === '/'
-						 	|| props.pathExt === '' ? {
-							color: 'rgb(255, 202, 0)'
-						}:{
-							color: '#000'
-						}}
-						to="/">
-						
-						<img 
-							className="logo-img"
-							src={Logo}
-						/>
-						
-					</Link>
-				</h1>
+                <section className={toggled ? 'active-nav' : 'non-active-nav'}>
+                    <span className="close-mark" onClick={e => clickEvent(e)}>
+                        <span className="hamburger-x-mark"></span>
+                        <span className="hamburger-x-mark"></span>
+                    </span>
 
-				<h1></h1>
-
-				<ul
-					className="hamburger-ul"
-					onClick={e => clickEvent(e)}
-					ref={refSpan}>
-
-					<span className="hamburger-span"></span>
-					<span className="hamburger-span"></span>
-
-				</ul>
-
-				<section className={toggled ? 'active-nav': 'non-active-nav'}>
-
-					<span className="close-mark" onClick={e => clickEvent(e)}>
-						<span className="hamburger-x-mark"></span>
-						<span className="hamburger-x-mark"></span>
-					</span>
-
-					<ul>
-						<p class="list-label">
-							Navigations.
+                    <ul>
+                        <p class="list-label">
+                            Navigations.
 						</p>
-						
-						{ Listed }
+                        <li>
+                            <Link
+                                to='/'>
+                                Home
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                to='/about-the-author'>
+                                Author
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                to='/about-the-book'>
+                                Books
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                to='/videos'>
+                                Videos
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                to='/contact'>
+                                Contact
+                            </Link>
+                        </li>
+                    </ul>
+                </section>
 
-					</ul>
-
-				</section>
-			</nav>
-        </>			
+            </nav>
+        </>
     )
 }
 

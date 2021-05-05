@@ -3,12 +3,14 @@ import Layout from '../components/layout'
 import Nav from '../components/nav'
 import Banner from '../components/non-front-banner'
 import AuthorImg from '../../static/author/main_author.png'
+import { Helmet } from 'react-helmet'
 
 const ATB = (props)=>{
 	
 	return (
 		<> 
 		 	<Layout>
+                 <Helmet title="Author | Perry Defiore" />
 		 		<Nav pathExt={props.path}/>
 
                 <Banner 
@@ -20,7 +22,7 @@ const ATB = (props)=>{
                          
                         <div className="heading-quote column">
                             <div className="author-image-container">
-                                <img src={AuthorImg} />
+                                <img src={AuthorImg} alt="Perry DeFiore"/>
                             </div>
 
                             <div className="heading-quote">

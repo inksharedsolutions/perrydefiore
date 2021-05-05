@@ -108,9 +108,9 @@
         }
     }
     
-    .navigation{
-        display: none;
-    }
+    // .navigation{
+    //     display: none;
+    // }
 
     .logo-img{
         width: 60px;
@@ -557,6 +557,15 @@
     .form-newsletter-wrapper{
         input[name="email"]{
             width: 100%;
+        }
+    }
+
+    /*added*/
+    .book-trailer{
+        .grid-child-content{
+            h1{
+                font-size: 12vw;
+            }
         }
     }
 }

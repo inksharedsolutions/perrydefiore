@@ -432,6 +432,7 @@
 
 /*Book Trailer Css*/
 .book-trailer{
+
     .grid-child-content{
         h1{
             color: #000 !important;
@@ -455,6 +456,14 @@
         padding: 5%;
         background: #eeeeee4a;
         gap:27px;
+    }
+
+    button{
+        &:hover{
+            background: #9c9c9c;
+            color: #fff;
+            cursor: pointer;
+        }
     }
 }
 
@@ -589,5 +598,20 @@
             left: 0;
             right: 0;
         }
+    }
+}
+
+/*added*/
+.radio-interviews-content{
+    padding: 5% 0;
+
+    .video-header{
+        font-size: 2em;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+
+    .grid-two-columns{
+        gap: 20px;
     }
 }

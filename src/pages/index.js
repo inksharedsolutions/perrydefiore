@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Nav from "../components/nav"
@@ -8,14 +7,17 @@ import Author from "../components/author"
 import MidBook from "../components/front-book"
 import FeaturedLogos from "../components/mid-main"
 import ParallaxBottom from "../components/parallax-bottom"
-
+import Video from "../components/trailer"
+import { Helmet } from "react-helmet"
 
 
 const IndexPage = (props) => (
   <Layout>
+      <Helmet title="Home | Perry Defiore" />
       <Nav pathExt={props.path}/>
       <Banner/>
       <MidBook/>
+      <Video />
       <Author/>
       <ParallaxBottom />
       <FeaturedLogos/>

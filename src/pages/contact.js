@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import Inputs from "../components/Inputs/inputs"
 import Nav from '../components/nav'
 import Banner from '../components/non-front-banner'
+import { Helmet } from 'react-helmet'
 
 
 const Contact = (props)=>{
@@ -32,6 +33,7 @@ const Contact = (props)=>{
     return(
         <>
             <Layout>
+                <Helmet title="Contact | Perry Defiore" />
 		 		<Nav pathExt={props.path}/>
 		 		<Banner 
                     spanFirst={`Get In`}
@@ -79,10 +81,11 @@ const Contact = (props)=>{
 
                             <div className="columns">
                                 <div className="column is-full" id="textAreaContainer">
-                                    <label> Message	</label>
+                                    <label htmlFor="message"> Message	</label>
                                     <textarea type="text" name='message' 
                                         className="textArea"
                                         placeholder='Message'
+                                        id='message'
                                         required />
             
 
